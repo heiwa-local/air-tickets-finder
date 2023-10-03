@@ -1,11 +1,9 @@
+import { Routing } from "../../pages";
 import { withProviders } from "../providers";
 import styles from "./styles.module.scss"
 
 export const App = () => {
   return (
-    <div className={styles.app}>
-    </div>
+    <Routing/>
   );
 }
-
-export default withProviders(App)
